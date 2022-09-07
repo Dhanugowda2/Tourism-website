@@ -1,0 +1,85 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+ul{
+    list-style-type: none;
+   
+    margin-top: 2%;
+    
+    
+}
+.wrapper ul li{
+    
+   text-align: center;
+   line-height: 35px;
+   float: left;
+   font-size: 20px;
+   color: rgb(244, 242, 242);
+   padding: 10px;
+   position: relative;
+   border: 1px solid rgb(5, 5, 5) transparent ;
+   width: 130px;
+   height: 30px;
+   border-radius: 5px;
+   
+   
+}
+body{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(egypt.jpeg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-background-size: cover;
+    background-position: center center;
+
+}
+.wrapper ul ul{
+    display: none;
+}
+ul li:hover{
+    background-color:rgb(74, 49, 149);
+    color: rgb(5, 1, 11);
+}
+.wrapper ul li:hover > ul{
+    display: block;
+    
+}
+.wrapper{
+    width: 868px;
+    margin: 0 auto;
+}
+
+
+
+.title{
+    position: absolute;
+    top: 45%;
+    left: 35%;
+    color: azure;
+    font-size: 1.5em;
+}
+.button{
+    position: absolute;
+    top: 55%;
+    left: 39%;
+}
+.btn{
+    padding: 10px 30px;
+    border: 1px solid ;
+    border-radius: 5px;
+}
+.button a{
+    text-decoration: none;
+    color: rgb(242, 247, 247);
+    font-size: 1.3em;
+}
+.button a:hover{
+    background-color:rgb(74, 49, 149);
+    color: black;
+}
+    marquee{
+        font-size: 1.7em;
+        color: white;
+        margin-top: 30%;
+    }
